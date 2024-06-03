@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  aqua01:
+    image: aqua01:latest
+
+    volumes:
+      - ../log/:/app/log/
+      - ../data/position_reports/:/app/data/position_reports/
+      - ../data/static_ship_data/:/app/data/static_ship_data/
+    restart: always 
+  aqua0206:
+    image: aqua0206:latest
+
+    volumes:
+      - ../log/:/app/log/
+      - ../data/position_reports/:/app/data/position_reports/
+      - ../data/static_ship_data/:/app/data/static_ship_data/
+      - ../data/agg_position_reports/:/app/data/agg_position_reports/
+      - ../data/agg_static_ship_data/:/app/data/agg_static_ship_data/
+      - ../data/joined_data/:/app/data/joined_data/
+      - ../data/grouped_data/:/app/data/grouped_data/
+      - ../data/anomaly_detection_data/:/app/data/anomaly_detection_data/
+    restart: always 

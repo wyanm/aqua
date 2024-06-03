@@ -1,0 +1,4 @@
+FROM python:3.10
+ADD src/01_Get_Raw_Data.py .
+RUN pip install asyncio websockets pandas pyarrow
+CMD ["python", "01_Get_Raw_Data.py"] 

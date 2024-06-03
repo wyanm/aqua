@@ -1,0 +1,10 @@
+FROM python:3.10
+WORKDIR /app
+ADD src/aqua0206.sh .
+ADD src/02_Aggregate_Hourly_Data.py .
+ADD src/03_Aggregate_Ship_Data.py .
+ADD src/04_Join_Prepare.py .
+ADD src/05_Group_By_Ship.py .
+ADD src/06_Anomaly_Detection.py .
+RUN pip install asyncio websockets pandas pyarrow scikit-learn
+CMD ["bash", "aqua0206.sh"] 
