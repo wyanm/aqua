@@ -204,4 +204,4 @@ def update_output(data,n_clicks):
     
     
 
-app.run_server(debug=True)  # Turn off reloader if inside Jupyter
+app.run_server(host= '0.0.0.0',debug=False)  # Turn off reloader if inside Jupyter
