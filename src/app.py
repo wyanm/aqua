@@ -32,6 +32,7 @@ data['id'] = data['ship_id']
 
 
 app = Dash(external_stylesheets=[dbc.themes.DARKLY])
+server = app.server
 app.title = "AQUA"
 
 
