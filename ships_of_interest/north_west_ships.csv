@@ -1,0 +1,20 @@
+name,ship_id,approx_date,destinations_info
+Chem Helen,636013337, from 27.05.24, Murmansk to Libya hiding first final destination
+Chiba,352002692, 21.05.24, from Primorsk to Turkey hiding first final destination
+Ocean AMZ,518998877, 19.05.24, from Primorsk to Morocco
+kusto,518999185, from 17.05.24, Ust-Luga to Primorsk while falsly claiming Malta to Tallinn trip than on 20.05.24 to Said/Egypt
+Yildiz,271050993, 26.05.24, from Ust-Luga to Mersin/Turkey
+Arabela,518999128, 19.05.24, from Ust-Luga to Mundra/India
+Ursus Arctos,636022405, 18.05.24, from Ust-Luga to Said/Egypt
+Sakarya,352002168, 20.05.24, from Murmansk to Kyaukpyu/Myanmar
+Esentepe,538010161,  27.05.24, from Murmansk to MTOPL/Maledives? for orders
+Zouzou N,636014251, unknown date of departure, from Murmansk to Said/Egypt
+Legend,574005290, 28.05.24, from Ust-Luga claiming to drive towards Suez hiding end-destination
+BLUE,304868000, 17.05.24, from Murmansk to Said/Egypt
+Clearocean Apollon,636019153, 18.05.24, from Ust-Luga to Said/Egypt
+Sivas,352002488, 24.05.24, coming back from Said/Egypt first to Ust_luga then going to Primark
+Grace Ferrum,636023538, 21.05.24, leaving from Ust-Luga to Paranagua/Brazil
+Sealeo,256721000, 19.05.24, leaving from Ust_luga to  Capetown/South Africa
+Shusha,423519100, 25.05.24, leaving from Ust-Luga to Aliaga/Turkey
+Thorin,518999161, when leaving on 25.05.24, claiming as destination "gulf of finland" from Primorsk first EGsuez and then Said/Egypt
+Palermo,538008065, after 17.05.25, from RU LED to Merina/Turkey
