@@ -1,5 +1,7 @@
 # AQUA
 
+UPDTE 18.6.2024: This projected is suspended due to lack of interest.
+
 The aim of AQUA is to spot Russian oil tankers that are circumventing the sanctions - the Shadow Fleet. It provides historic AIS-data, a dashboard, and some analyses. 
 
 You can find in the folder "ships_of_interest" csv-files of tankers leaving russian black sea and north-western ports and with additional manually made observations. In the folder "data" you can find all the collected data in parquet-files. You can use the dashboard to visualize and browse the available data.
